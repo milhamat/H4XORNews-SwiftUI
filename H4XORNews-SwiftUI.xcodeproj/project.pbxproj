@@ -60,10 +60,10 @@
 		DA670DED25624BD0005E7574 /* H4XORNews-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				DA670E0325625672005E7574 /* Model */,
 				DA670DEE25624BD0005E7574 /* AppDelegate.swift */,
 				DA670DF025624BD0005E7574 /* SceneDelegate.swift */,
 				DA670DF225624BD0005E7574 /* ContentView.swift */,
+				DA670E0325625672005E7574 /* Model */,
 				DA670DF425624BD1005E7574 /* Assets.xcassets */,
 				DA670DF925624BD1005E7574 /* LaunchScreen.storyboard */,
 				DA670DFC25624BD1005E7574 /* Info.plist */,

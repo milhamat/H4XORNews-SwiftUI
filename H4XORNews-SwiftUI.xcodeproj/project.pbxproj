@@ -15,6 +15,8 @@
 		DA670DFB25624BD1005E7574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA670DF925624BD1005E7574 /* LaunchScreen.storyboard */; };
 		DA670E0525625693005E7574 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA670E0425625693005E7574 /* NetworkManager.swift */; };
 		DA670E08256266D6005E7574 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA670E07256266D6005E7574 /* PostData.swift */; };
+		DACFBB4B25626FBE00DA1C95 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACFBB4A25626FBE00DA1C95 /* DetailView.swift */; };
+		DACFBB54256277F600DA1C95 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACFBB53256277F600DA1C95 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		DA670DFC25624BD1005E7574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA670E0425625693005E7574 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DA670E07256266D6005E7574 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		DACFBB4A25626FBE00DA1C95 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DACFBB53256277F600DA1C95 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,7 @@
 			children = (
 				DA670DEE25624BD0005E7574 /* AppDelegate.swift */,
 				DA670DF025624BD0005E7574 /* SceneDelegate.swift */,
-				DA670DF225624BD0005E7574 /* ContentView.swift */,
+				DACFBB4925626F9600DA1C95 /* View */,
 				DA670E0325625672005E7574 /* Model */,
 				DA670DF425624BD1005E7574 /* Assets.xcassets */,
 				DA670DF925624BD1005E7574 /* LaunchScreen.storyboard */,
@@ -87,6 +91,16 @@
 				DA670E07256266D6005E7574 /* PostData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DACFBB4925626F9600DA1C95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA670DF225624BD0005E7574 /* ContentView.swift */,
+				DACFBB4A25626FBE00DA1C95 /* DetailView.swift */,
+				DACFBB53256277F600DA1C95 /* WebView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +174,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA670E08256266D6005E7574 /* PostData.swift in Sources */,
+				DACFBB4B25626FBE00DA1C95 /* DetailView.swift in Sources */,
 				DA670E0525625693005E7574 /* NetworkManager.swift in Sources */,
 				DA670DEF25624BD0005E7574 /* AppDelegate.swift in Sources */,
 				DA670DF125624BD0005E7574 /* SceneDelegate.swift in Sources */,
 				DA670DF325624BD0005E7574 /* ContentView.swift in Sources */,
+				DACFBB54256277F600DA1C95 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

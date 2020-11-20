@@ -32,6 +32,7 @@
 		DA670E07256266D6005E7574 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		DACFBB4A25626FBE00DA1C95 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DACFBB53256277F600DA1C95 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		DACFBB5625627B7200DA1C95 /* H4XORNews-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "H4XORNews-SwiftUI.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		DA670DED25624BD0005E7574 /* H4XORNews-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DACFBB5625627B7200DA1C95 /* H4XORNews-SwiftUI.entitlements */,
 				DA670DEE25624BD0005E7574 /* AppDelegate.swift */,
 				DA670DF025624BD0005E7574 /* SceneDelegate.swift */,
 				DACFBB4925626F9600DA1C95 /* View */,
@@ -318,6 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4XORNews-SwiftUI/H4XORNews-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4XORNews-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 4A4J3R44FB;
@@ -329,6 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Rexy.H4XORNews-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "H4XORNews-SwiftUI/H4XORNews-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"H4XORNews-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 4A4J3R44FB;
@@ -350,6 +355,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Rexy.H4XORNews-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
